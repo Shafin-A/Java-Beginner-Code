@@ -20,7 +20,7 @@ public class Date {
       System.out.println("What is today's date?: ");
       int date = in.nextInt();
       
-      in.nextLine(); //Avoids scanner bug when taking sting input after integer
+      in.nextLine(); //Avoids scanner bug when taking string input after integer
       
       System.out.println("What month is it?: ");
       String month = in.nextLine();
